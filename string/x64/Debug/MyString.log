@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\34289\Desktop\学习分区\编程学习资料\C++语言学习资料\学习项目\MyString\string.h(182,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  MyString.vcxproj -> C:\Users\34289\Desktop\学习分区\编程学习资料\C++语言学习资料\学习项目\MyString\x64\Debug\MyString.exe
