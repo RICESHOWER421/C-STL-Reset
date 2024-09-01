@@ -1,7 +1,7 @@
 #pragma once
-
 #include <iostream>
 #include <cassert>
+#include "Reverse_iterator.h"	//·´Ïòµü´úÆ÷
 using namespace std;
 namespace new_list {
 	template<class T>
@@ -110,6 +110,8 @@ namespace new_list {
 	public:
 		typedef __list_iterator<T, T&, T*> iterator;
 		typedef __list_iterator<T, const T&, const T*> const_iterator;
+		typedef Reverse_iterator<iterator, T&, T*> reverse_iterator;
+		typedef Reverse_iterator<const_iterator, const T&, const T*> const_reverse_iterator;
 		/*typedef __list_const_iterator<T> const_iterator;*/
 		iterator begin() {
 			/*return iterator(_head->_next);*/
@@ -127,6 +129,14 @@ namespace new_list {
 
 		const_iterator end() const {
 			return _head;
+		}
+
+		reverse_iterator rbegin() {
+			return reverse_iterator(end());
+		}
+
+		reverse_iterator rend() {
+			return reverse_iterator(begin());
 		}
 
 		list() {
