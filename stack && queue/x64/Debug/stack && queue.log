@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\34289\Desktop\learning\code learning material\C++ learning\学习项目(VS2022)\stack && queue\queue.h(85,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\34289\Desktop\learning\code learning material\C++ learning\学习项目(VS2022)\stack && queue\queue.h(82,1): message : 在编译 类 模板 成员函数“void new_queue::priority_queue<int,std::vector<int,std::allocator<T>>,new_compare::greater<T>>::push(const T &)”时
+          with
+          [
+              T=int
+          ]
+C:\Users\34289\Desktop\learning\code learning material\C++ learning\学习项目(VS2022)\stack && queue\main.cpp(35,9): message : 查看对正在编译的函数 模板 实例化“void new_queue::priority_queue<int,std::vector<int,std::allocator<T>>,new_compare::greater<T>>::push(const T &)”的引用
+          with
+          [
+              T=int
+          ]
+C:\Users\34289\Desktop\learning\code learning material\C++ learning\学习项目(VS2022)\stack && queue\main.cpp(34,73): message : 查看对正在编译的 类 模板 实例化“new_queue::priority_queue<int,std::vector<int,std::allocator<T>>,new_compare::greater<T>>”的引用
+          with
+          [
+              T=int
+          ]
+  stack && queue.vcxproj -> C:\Users\34289\Desktop\learning\code learning material\C++ learning\学习项目(VS2022)\stack && queue\x64\Debug\stack && queue.exe
